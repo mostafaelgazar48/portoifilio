@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+}
+
+.head {
+  width: 155px;
+}
+
+.logo /* header logo*/ {
+  width: 100px;
+  height: auto;
+}
+
+.nav  /* header title */ {
+  text-align: right;
+}
+
+hr {
+  border: 3px solid #C4C4C4;
+}
+/* the design of main part */
+main h2 {
+  color: #9ea5a5;
+  text-align: center;
+}
+
+.colors {
+  left: -88px;
+  position: relative;
+}
+
+.main .colors ul {
+  list-style: none;
+  display: inline-block;
+}
+
+.main .colors ul li {
+  width: 50px;
+  height: 50px;
+}
+
+
+/* the colors */
+.first {
+  background-color: #02b3e4;
+}
+
+.second {
+  background-color: #3d3c49;
+}
+
+.third {
+  background-color: #7d97ad;
+}
+
+
+/* the design of section  article*/
+.feat img {
+  width: 331px;
+  height: auto;
+}
+
+.feat {
+  text-align: center;
+  height: 300px;
+}
+
+.feat h2 {
+  color: #353535;
+}
+
+.feat a {
+  text-decoration: none;
+  color: #353535;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*media query  to make the page responsvive in  the phatform  nexus 5 and apple tablet*/
+
+@media(max-width:991px) {
+	
+  .colors {
+    text-align: center;
+    left: 0;
+  }
+
+  .nav {
+    text-align: center;
+  }
+
+  header .head {
+    text-align: center;
+    margin: auto;
+  }
+
+  .feat img {
+    margin: auto;
+  }
+
+  .feat {
+    margin-bottom: 25px;
+  }
+}
